@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Azmath'ss Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: #1e1e2f;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+nav .left {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav .right ul {
+    display: flex;
+    list-style: none;
+}
+
+nav .right ul li {
+    margin-left: 20px;
+}
+
+nav .right ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+nav .right ul li a:hover {
+    color: #00bcd4;
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section:nth-of-type(even) {
+    background: #252545;
+}
+
+.section .content {
+    width: 80%;
+    margin: auto;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section p,
+.section ul {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin: 10px 0;
+}
+
+#home .content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 6%;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">MD. Azmath Ali</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="content">
+                <img src="azmath.png" alt="MD AZMATH ALI">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Discover my skills, projects, and achievements.</p>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="content">
+                <h2>About Me</h2>
+                <p>I'm MD.Azmath Ali, a Computer Science and Engineer with a focus on problem-solving using various programming languages.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="content">
+                <h2>Skills</h2>
+                <ul>
+                    <li>C: Problem Solving</li>
+                    <li>Python: Problem Solving</li>
+                    <li>Java: Problem Solving</li>
+                    <li>Web Development: Basics</li>
+                    <li>SQL: Problem Solving</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="content">
+                <h2>Projects</h2>
+                <h3>Personal Portfolio Website</h3>
+                <p>Description: A personal portfolio website to showcase my skills and projects.</p>
+                <p>Technologies Used: HTML, CSS, JavaScript</p>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="content">
+                <h2>Education</h2>
+                <ul>
+                    <li>10th: St Isaac Advent High School |(2011-2020) SSE</li>
+                    <li>12th: Narayana Junior College |(2020-2022) SSE</li>
+                    <li>B.Tech: Anurag University |(Current-2026)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <div class="content">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>Introduction to Python Programming Language (Infosys Springboard)</li>
+                    <li>Introduction to Artificial Intellingence (Infosys Springboard)</li>
+                    <li>MongoDB certification</li>
+                    <li>AI skills Challenge of Microsoft Odyssey</li>
+                    <li>AI Using Python (Infosys Springboard)</li>
+                    <li>Design Thinking (Infosys Springboard)</li>
+                    <li>Enterprise with Grade AI (IBM)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="content">
+                <h2>Contact</h2>
+                <p>Phone: +91 9390594067</p>
+                <p>Email: <a href="mailto:22eg105a42@anurag.edu.in">22eg105a42@anurag.edu.in</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MD AZMATH ALI. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

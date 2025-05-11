@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2D0159;
+            color: white;
+        }
+
+        header {
+            background: url("iron.jpg");
+            background-size: cover;
+            height: 800px; /* Adjust the height to fit your needs */
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            background: rgba(0, 0, 0, 0.5); /* Add this to darken the image and make text readable */
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+        }
+        .intro {
+            max-width: 600px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #5602BD;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolios</div>
+            <ul>
+                <li><a href="port1.html">Portfolio 1</a></li>
+                <li><a href="port2.html">Portfolio 2</a></li>
+                <li><a href="port3.html">Portfolio 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <footer>
+        <p>&copy; 2024 T. Giri Charan</p>
+    </footer>
+</body>
+</html>
